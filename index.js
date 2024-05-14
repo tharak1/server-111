@@ -46,7 +46,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/user",require("./routes/userRoutes"));
-app.use("/api/userdata",require("./routes/userDataRoutes"));
+app.use("/api/student",require("./routes/userDataRoutes"));
 app.use("/api/books",require("./routes/booksRoutes"));
 app.use("/api/parent",require("./routes/parentRoutes"));
 app.use("/api/attendance",require("./routes/attendanceRoutes"));
